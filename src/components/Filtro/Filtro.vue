@@ -27,7 +27,7 @@ export default {
             required: true,
         },
         opcaoDefault: {
-            type: [Array, Object],
+            type: [String, Array, Object],
         },
     },
     data: () => ({

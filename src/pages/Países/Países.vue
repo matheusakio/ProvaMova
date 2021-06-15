@@ -151,10 +151,17 @@ export default {
 <style scoped>
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
     justify-content: center;
+    margin: 0 auto;
 
+}
+@media screen and (min-width: 993px) {
+    .container{
+        flex-direction: row;
+    }
+    
 }
 
 .imagem {
