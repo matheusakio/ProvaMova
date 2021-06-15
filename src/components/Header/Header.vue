@@ -48,6 +48,7 @@ export default {
     height: 100px;
     justify-content: space-between;
     padding: 0 48px;
+    min-width: 500px;
 }
 .imagem {
     height: 3.75em;
